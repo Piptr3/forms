@@ -55,15 +55,37 @@ img {
 .head,
 .foot {
     background-color: lightgray;
+    height: 30%;
 }
 
 .form-panel {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    margin: 50px;
 }
 
 .row {
     display: flex;
     margin: 0 20px;
+    justify-content: center;
+    gap: 10%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 40%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
