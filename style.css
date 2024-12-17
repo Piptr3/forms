@@ -4,16 +4,27 @@ html, body {
     display: flex;
     height: 100%;
     width: 100%;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .left {
- 
     width: 35vw;
     background-image: url(./img/ye.jpg);
     background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
 }
 
 .right {
-
     width: 65vw;
+}
+
+.footer {
+    margin: 8px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 0.7rem;
 }
