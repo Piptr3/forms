@@ -62,7 +62,6 @@ img {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    margin: 50px;
 }
 
 .row {
@@ -75,7 +74,6 @@ img {
 .main {
     display: flex;
     flex-direction: column;
-
     height: 40%;
 }
 
@@ -87,7 +85,7 @@ form {
 .title {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    font-weight: bold;
 }
 
 button {
