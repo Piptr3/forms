@@ -63,28 +63,10 @@ img {
     height: 30%;
 }
 
-.form-panel {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.row {
-    display: flex;
-    margin: 0 20px;
-    justify-content: center;
-    gap: 10%;
-}
-
 .main {
     display: flex;
     flex-direction: column;
     height: 40%;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
 }
 
 .title {
@@ -141,4 +123,17 @@ input:valid {
     display: flex;
     align-items: center;
     font-weight: bold;
+}
+
+#my-form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+label,
+input {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
