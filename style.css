@@ -67,6 +67,7 @@ img {
     display: flex;
     flex-direction: column;
     height: 40%;
+    justify-content: center;
 }
 
 .title {
@@ -127,13 +128,15 @@ input:valid {
 
 #my-form {
     display: flex;
+    justify-content: center;
+    gap: 5%;
     flex-wrap: wrap;
 }
 
 label,
 input {
-    width: 200px;
+    width: 250px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
 }
+
